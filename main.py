@@ -11,7 +11,7 @@ for month in range(12):
     year_income += month_income
 print(year_income)
 category = int(input())
-if category==1:
+if category == 1:
     if year_income<9075:
         tax = year_income*0.1
         print(tax)
