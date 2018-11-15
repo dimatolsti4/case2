@@ -5,9 +5,7 @@ Timofeev A (60%), Ignatov G(40%), Rodionov D(20%)
 """ 
 tax: int = 0
 year_income: int = 0
-
-print(local.slovo2)    
-    
+print(local.slovo2)        
 for month in range(12):
     month_income: int = int(input())
     year_income += month_income
