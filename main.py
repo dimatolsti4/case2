@@ -10,6 +10,8 @@ import local
 tax= 0
 year_income = 0
 
+print('Введите свой доход за месяц\n')
+
 for month in range(12):
     month_income = int(input())
     year_income+=month_income
