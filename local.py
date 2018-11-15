@@ -1,2 +1,2 @@
-slovo = "Введите 1 если вы один субьект, 2 если вы супружеская пара, 3 если вы родитель-одиночка"
-slovo2 = "Введите вашу зарплату за год помесячно"
+category = "INPUT 1 IF YOU ARE PERSON, 2 IF YOU ARE MARRIED COUPLE, 3 IF YU ARE SINGLE PARENT"
+income = "INPUT YOUR INCOME"
