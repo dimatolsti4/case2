@@ -1,3 +1,4 @@
+import local
 
 tax= 0
 year_income = 0
@@ -8,7 +9,7 @@ for month in range(12):
 
 print(year_income)
 
-category = int(input())
+category = int(input(local.slovo))
 
 if category==1:
     if year_income<9075:
