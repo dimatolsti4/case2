@@ -1,3 +1,10 @@
+"""Case-study #0 My first code
+Developers:
+Timofeev A (60%), Ignatov G(40%), Rodionov D(20%) 
+
+""" 
+
+
 import local
 
 tax= 0
