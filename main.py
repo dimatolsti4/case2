@@ -1,8 +1,9 @@
-"""Case-study #2
+'''
+Case-study #2
 Developers:
 Timofeev A (60%), Ignatov G(40%), Rodionov D(20%) 
 
-""" 
+'''
 tax: int = 0
 year_income: int = 0
 print(local.INCOME_INPUT)        
