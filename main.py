@@ -9,7 +9,7 @@ for month in range(12):  #ввод зарплаты за год помесячн
     year_income += month_income
 print(year_income)
 
-category = int(input(local.CATEGORY_INPUT))  #ввод вашей категеории для подсчета налогов
+category = int(input(local.CATEGORY_INPUT))  #ввод вашей категеории
 
 if category == 1:  #подсчет для 1 категории
     if year_income <= 9075:
