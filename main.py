@@ -26,7 +26,6 @@ if category == 1:  # Подсчет для 1 категории
         tax = 119113.71 + (year_income - 405101)*0.35
     else:
         tax = 119690.86 + (year_income - 406751)*0.396
-
 if category == 2:  # Подсчет для 2 категории
     if year_income < 18150:
         tax = year_income*0.1
