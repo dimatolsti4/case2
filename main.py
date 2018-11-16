@@ -45,7 +45,7 @@ if category == 3:
         tax = year_income*0.1        
     if (year_income >= 12951) and (year_income <= 49400):
         tax = 12950*0.1 + (year_income-12950)*0.15      
-    if (year_income >= 49401) and (127550 => year_income):
+    if (year_income >= 49401) and (127550 >= year_income):
         tax = 12950*0.1 + 36449*0.15 + (year_income - 49401)*0.25       
     if (year_income >= 127551) and (year_income <= 206600):
         tax = 12950*0.1 + 36449*0.15 + 78149*0.25 + (year_income - 127551)*0.28
