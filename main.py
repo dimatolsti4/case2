@@ -4,14 +4,14 @@ tax = 0
 year_income = 0
 
 print(local.INCOME_INPUT)
-for month in range(12):  #ввод зарплаты за год помесячно
+for month in range(12):  # Ввод зарплаты за год помесячно
     month_income = int(input())
     year_income += month_income
 print(year_income)
 
-category = int(input(local.CATEGORY_INPUT))  #ввод вашей категеории
+category = int(input(local.CATEGORY_INPUT))  # Ввод вашей категеории
 
-if category == 1:  #подсчет для 1 категории
+if category == 1:  # Подсчет для 1 категории
     if year_income <= 9075:
         tax = year_income*0.1
     elif year_income <= 36900:
@@ -27,7 +27,7 @@ if category == 1:  #подсчет для 1 категории
     else:
         tax = 119690.86 + (year_income - 406751)*0.396
 
-if category == 2:  #подсчет для 2 категории
+if category == 2:  # Подсчет для 2 категории
     if year_income < 18150:
         tax = year_income*0.1
     elif year_income <= 73800:
@@ -42,7 +42,7 @@ if category == 2:  #подсчет для 2 категории
         tax = 109586.49+(year_income - 405101)*0.35
     else:
         tax = 127961.14 + (year_income - 457601)*0.396
-if category == 3:  #подсчет для 3 категории
+if category == 3:  # Подсчет для 3 категории
     if year_income <= 12950:
         tax = year_income*0.1
     elif year_income <= 49400:
@@ -57,5 +57,5 @@ if category == 3:  #подсчет для 3 категории
         tax = 113937.99 + (year_income - 405101)*0.35
     else:
         tax = 123422.64 + (year_income - 432201)*0.396
-print(round(tax))  #вывод  налога
+print(round(tax))  # Вывод  налога
 end = int(input())
