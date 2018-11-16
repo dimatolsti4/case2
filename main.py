@@ -1,17 +1,17 @@
-
 import local
 
 tax = 0
 year_income = 0
-print(local.INCOME_INPUT) 
 
+print(local.INCOME_INPUT) 
 for month in range(12):  #ввод зарплаты за год помесячно
     month_income = int(input())
     year_income += month_income
 print(year_income)
 
 category = int(input(local.CATEGORY_INPUT))  #ввод вашей категеории для подсчета налогов
-if category == 1: //подсчет для 1 категории
+
+if category == 1:  #подсчет для 1 категории
     if year_income <= 9075:
         tax = year_income*0.1
     elif year_income <= 36900:
