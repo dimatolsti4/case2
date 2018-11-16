@@ -1,12 +1,12 @@
 
 import local
 
-tax: int = 0
-year_income: int = 0
+tax = 0
+year_income = 0
 print(local.INCOME_INPUT) 
 
 for month in range(12):             #ввод зарплаты за год помесячно
-    month_income: int = int(input())
+    month_income = int(input())
     year_income += month_income
 print(year_income)
 
