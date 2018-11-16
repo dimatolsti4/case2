@@ -23,7 +23,7 @@ if category == 1:  #подсчет для 1 категории
     elif year_income <= 405100:
         tax = 46926.54 + (year_income - 186351)*0.33
     elif year_income <= 406750:
-        tax = 119113.71+ (year_income - 405101)*0.35
+        tax = 119113.71 + (year_income - 405101)*0.35
     else:
         tax = 119690.86 + (year_income - 406751)*0.396
 
@@ -35,18 +35,15 @@ if category == 2:  #подсчет для 2 категории
     elif year_income <= 148850:
         tax = 10162.35 + (year_income - 73801)*0.25
     elif year_income <= 226850:
-        tax = 28924.6+ (year_income - 148851)*0.28
+        tax = 28924.6 + (year_income - 148851)*0.28
     elif year_income <= 405100:
         tax = 50764.32 + (year_income - 226851)*0.33
     elif year_income <= 457600:
         tax = 109586.49+(year_income - 405101)*0.35
-        
     else:
         tax = 127961.14 + (year_income - 457601)*0.396
-        
-        
 if category == 3:  #подсчет для 3 категории
-    if year_income <=12950:
+    if year_income <= 12950:
         tax = year_income*0.1
     elif year_income <= 49400:
         tax = 1295 + (year_income-12950)*0.15
